@@ -16,7 +16,7 @@ This website has a Library filled with Awesome Books.
 
 ## Live Demo
 
-[Live Demo Link](https://thermiee.github.io/Awesome-Books/)
+[Live Demo Link](https://awais-amjed.github.io/Awesome-Books-ES6/)
 
 # Getting Started
 
@@ -30,9 +30,8 @@ To get a local copy up and running follow these simple example steps.
 ### Setup
 
 - Clone the GitHub Repository
-- Run the following commands
+- Run the following command
 ```
-npm init -y
 npm install
 ```
 
