@@ -1,4 +1,4 @@
-export class Book {
+export default class Book {
   // Book Class has a title and author
   title;
 

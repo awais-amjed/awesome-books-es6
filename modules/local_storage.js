@@ -1,4 +1,4 @@
-export const storageAvailable = (type) => {
+export default function storageAvailable(type) {
   // Check if Storage is available
   let storage;
   try {
@@ -9,7 +9,7 @@ export const storageAvailable = (type) => {
     return true;
   } catch (e) {
     return e instanceof DOMException && (
-        e.code === 22
+      e.code === 22
         || e.code === 1014
         || e.name === 'QuotaExceededError'
         || e.name === 'NS_ERROR_DOM_QUOTA_REACHED')

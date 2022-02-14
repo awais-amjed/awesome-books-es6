@@ -1,8 +1,16 @@
-import {Library} from './modules/library.js'
-import {displayNewElement, booksList, showBooksList} from "./modules/html_functions.js";
-import {addNewButtonListener, showListButtonListener, contactInfoButtonListener} from './modules/html_functions.js';
-import {addNewButton, showListButton, contactInfoButton} from './modules/html_functions.js';
-import {Book} from "./modules/book.js";
+import Library from './modules/library.js';
+import Book from './modules/book.js';
+import {
+  displayNewElement,
+  booksList,
+  showBooksList,
+  addNewButtonListener,
+  showListButtonListener,
+  contactInfoButtonListener,
+  addNewButton,
+  showListButton,
+  contactInfoButton,
+} from './modules/html_functions.js';
 
 const library = new Library();
 
@@ -21,7 +29,9 @@ if (library.books.length === 0) {
 const addBookForm = document.getElementById('add-book-form');
 addBookForm.addEventListener('submit', (event) => {
   event.preventDefault();
-  const result = library.addBook(new Book(addBookForm.elements.title.value, addBookForm.elements.author.value));
+  const result = library.addBook(
+    new Book(addBookForm.elements.title.value, addBookForm.elements.author.value),
+  );
   if (result) {
     displayNewElement(result, library);
   }

@@ -1,6 +1,6 @@
-import {storageAvailable} from './local_storage.js'
+import storageAvailable from './local_storage.js';
 
-export class Library {
+export default class Library {
   // Library class consists of a list of books
   books = [];
 
@@ -29,6 +29,7 @@ export class Library {
       this.updateLocalStorage();
       return book;
     }
+    // eslint-disable-next-line no-alert
     alert('The Book and Author exist');
     return null;
   }

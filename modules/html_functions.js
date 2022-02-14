@@ -39,7 +39,7 @@ export const displayNewElement = (book, library) => {
       `;
     }
   });
-}
+};
 
 const switchActive = (node) => {
   if (showListButton !== node && showListButton.classList.contains('active')) {
@@ -50,7 +50,7 @@ const switchActive = (node) => {
     contactInfoButton.classList.remove('active');
   }
   node.classList.add('active');
-}
+};
 
 export const showBooksList = () => {
   switchActive(showListButton);
@@ -58,12 +58,12 @@ export const showBooksList = () => {
 
   contactInfoSection.style.display = 'none';
   inputFormSection.style.display = 'none';
-}
+};
 
 export const showListButtonListener = (event) => {
   event.preventDefault();
   showBooksList();
-}
+};
 
 export const addNewButtonListener = (event) => {
   event.preventDefault();
@@ -72,7 +72,7 @@ export const addNewButtonListener = (event) => {
 
   contactInfoSection.style.display = 'none';
   awesomeBooksSection.style.display = 'none';
-}
+};
 
 export const contactInfoButtonListener = (event) => {
   event.preventDefault();
@@ -81,4 +81,4 @@ export const contactInfoButtonListener = (event) => {
 
   awesomeBooksSection.style.display = 'none';
   inputFormSection.style.display = 'none';
-}
+};
