@@ -11,6 +11,7 @@ import {
   showListButton,
   contactInfoButton,
 } from './modules/html_functions.js';
+import { DateTime } from './node_modules/luxon/src/luxon.js';
 
 const library = new Library();
 
@@ -46,3 +47,9 @@ addBookForm.addEventListener('submit', (event) => {
 showListButton.addEventListener('click', showListButtonListener);
 addNewButton.addEventListener('click', addNewButtonListener);
 contactInfoButton.addEventListener('click', contactInfoButtonListener);
+
+const displayTime = () => {
+  document.getElementById('current-date').innerHTML = DateTime.now().toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS);
+  setTimeout(displayTime, 1000);
+};
+displayTime();

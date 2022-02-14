@@ -24,11 +24,17 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-A Web Browser (preferably Google Chrome)
+- A Web Browser (preferably Google Chrome)
+- Node JS
 
 ### Setup
 
-Clone the GitHub Repository
+- Clone the GitHub Repository
+- Run the following commands
+```
+npm init -y
+npm install
+```
 
 ### Usage
 
