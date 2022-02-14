@@ -16,7 +16,7 @@ This website has a Library filled with Awesome Books.
 
 ## Live Demo
 
-[Live Demo Link](https://awais-amjed.github.io/Awesome-Books-ES6/)
+Unavailable, Requires a server for Luxon. Just test Locally.
 
 # Getting Started
 
@@ -24,16 +24,11 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- A Web Browser (preferably Google Chrome)
-- Node JS
+A Web Browser (preferably Google Chrome)
 
 ### Setup
 
-- Clone the GitHub Repository
-- Run the following command
-```
-npm install
-```
+Clone the GitHub Repository
 
 ### Usage
 

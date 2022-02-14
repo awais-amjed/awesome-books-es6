@@ -11,7 +11,7 @@ import {
   showListButton,
   contactInfoButton,
 } from './modules/html_functions.js';
-import { DateTime } from './node_modules/luxon/src/luxon.js';
+import { luxon } from './modules/luxon.js';
 
 const library = new Library();
 
@@ -49,7 +49,7 @@ addNewButton.addEventListener('click', addNewButtonListener);
 contactInfoButton.addEventListener('click', contactInfoButtonListener);
 
 const displayTime = () => {
-  document.getElementById('current-date').innerHTML = DateTime.now().toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS);
+  document.getElementById('current-date').innerHTML = luxon.DateTime.now().toLocaleString(luxon.DateTime.DATETIME_MED_WITH_SECONDS);
   setTimeout(displayTime, 1000);
 };
 displayTime();
