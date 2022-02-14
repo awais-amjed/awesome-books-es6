@@ -1,51 +1,46 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Awesome Books
-> A book collection store
 
-![screenshot](./images/app_screenshot.png)
+> A book Collection
 
+![screenshot](images/app_screenshot.png)
+
+This website has a Library filled with Awesome Books.
 
 ## Built With
+
 - HTML
 - CSS
-- JS
+- JavaScript
 
 ## Live Demo
 
-[Live Demo Link](https://thermiee.github.io/Awesome-Books/)
+[Live Demo Link](https://awais-amjed.github.io/Awesome-Books-ES6/)
+
+# Getting Started
+
+To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-The basic requirements for building the executable are:
-* A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
 
+A Web Browser (preferably Google Chrome)
 
-## Getting Started
+### Setup
 
-#### Cloning the project
-```
-https://github.com/Thermiee/Awesome-Books
-```
+Clone the GitHub Repository
 
 ### Usage
 
 Open index.html in Chrome
 
-## Author1
+## Authors
 
-👤 **Emmanuel Jolugbo**
-
-- GitHub: [@Thermiee](https://github.com/thermiee)
-
-
-## Author2
-
-👤 **Awais Amjed**
+👤 **Author1**
 
 - GitHub: [Awais Amjed](https://github.com/awais-amjed)
 - Website: [Coding Fries](https://codingfries.com)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/awais-amjed)
-
 
 ## 🤝 Contributing
 
@@ -60,11 +55,3 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
