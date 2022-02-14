@@ -29,6 +29,9 @@ if (library.books.length === 0) {
 const addBookForm = document.getElementById('add-book-form');
 addBookForm.addEventListener('submit', (event) => {
   event.preventDefault();
+  if (library.books.length === 0) {
+    booksList.innerHTML = '';
+  }
   const result = library.addBook(
     new Book(addBookForm.elements.title.value, addBookForm.elements.author.value),
   );

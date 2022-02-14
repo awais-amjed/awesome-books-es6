@@ -23,10 +23,6 @@ export const displayNewElement = (book, library) => {
   `;
   bookDiv.appendChild(removeButton);
 
-  if (library.books.length === 0) {
-    booksList.innerHTML = '';
-  }
-
   booksList.appendChild(bookDiv);
 
   removeButton.addEventListener('click', () => {
