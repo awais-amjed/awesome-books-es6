@@ -1,7 +1,7 @@
 export const booksList = document.getElementById('books-list');
-export const contactInfoSection = document.getElementById('contact-info');
-export const inputFormSection = document.getElementById('input-form');
-export const awesomeBooksSection = document.getElementById('awesome-books');
+const contactInfoSection = document.getElementById('contact-info');
+const inputFormSection = document.getElementById('input-form');
+const awesomeBooksSection = document.getElementById('awesome-books');
 export const showListButton = document.getElementById('show-list-button');
 export const addNewButton = document.getElementById('add-new-button');
 export const contactInfoButton = document.getElementById('contact-info-button');
@@ -41,7 +41,7 @@ export const displayNewElement = (book, library) => {
   });
 }
 
-export const switchActive = (node) => {
+const switchActive = (node) => {
   if (showListButton !== node && showListButton.classList.contains('active')) {
     showListButton.classList.remove('active');
   } else if (addNewButton !== node && addNewButton.classList.contains('active')) {
