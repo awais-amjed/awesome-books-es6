@@ -16,7 +16,7 @@ This website has a Library filled with Awesome Books.
 
 ## Live Demo
 
-Unavailable, Requires a server for Luxon. Just test Locally.
+[Live Demo Link](https://awais-amjed.github.io/Awesome-Books-ES6/)
 
 # Getting Started
 
