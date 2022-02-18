@@ -16,7 +16,7 @@ This website has a Library where you can Store all your Awesome Books.
 
 ## Live Demo
 
-[Live Demo Link](https://awais-amjed.github.io/Awesome-Books-ES6/)
+[Live Demo Link](https://awais-amjed.github.io/awesome-books-es6/)
 
 # Getting Started
 
