@@ -6,7 +6,7 @@
 
 ![screenshot](images/app_screenshot.png)
 
-This website has a Library filled with Awesome Books.
+This website has a Library where you can Store all your Awesome Books.
 
 ## Built With
 
